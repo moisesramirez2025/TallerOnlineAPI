@@ -1,0 +1,18 @@
+Historia de usuario 1: Registrar producto
+Descripción: Como administrador quiero registrar nuevos productos con nombre, descripción y precio para poder mantener el catálogo actualizado.
+
+
+Historia de usuario 2: Eliminar producto
+Descripción: Como administrador quiero eliminar productos del sistema para evitar mostrar productos obsoletos o descontinuados.
+
+
+Historia de usuario 3: Ver lista de productos
+Descripción: Como cliente o visitante quiero ver los productos disponibles para conocer las opciones que ofrece la carpintería.
+
+
+Historia de usuario 4: Enviar cotización
+Descripción: Como cliente quiero solicitar una cotización ingresando mis datos y detalles para recibir un presupuesto personalizado.
+
+
+Historia de usuario 5: Guardar contacto
+Descripción: Como cliente interesado quiero dejar mis datos de contacto para que la empresa pueda comunicarse conmigo.
