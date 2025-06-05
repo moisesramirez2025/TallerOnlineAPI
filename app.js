@@ -1,5 +1,8 @@
 const express = require("express");
 const connectDB = require("./config/db");
+const contactoRutas = require('./routes/contactosRutas');
+const productoRutas = require('./routes/productoRutas');
+const cotizacionRutas = require('./routes/cotizacionRutas');
 require("dotenv").config();
 
 
@@ -11,11 +14,11 @@ connectDB();
 
 app.use(express.json());
 
+app.use('/api', productoRutas);
+app.use('/api', contactoRutas);
+app.use('/api', cotizacionRutas);
 
 
-app.get("/", (req, res) => {
-  res.send("API de autenticación funcionando!");
-});
 
 
 
