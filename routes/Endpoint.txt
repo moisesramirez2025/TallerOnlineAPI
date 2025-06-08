@@ -1,9 +1,16 @@
 Productos
 POST /api/productos
 Registrar un nuevo producto
+                                {
+  "nombre": "Silla de madera",
+  "descripcion": "Silla hecha a mano con madera de pino",
+  "precio": 1200
+}
+
 
 GET /api/productos
 Listar todos los productos
+
 
 DELETE /api/productos/:id
 Eliminar un producto por ID
@@ -11,6 +18,12 @@ Eliminar un producto por ID
 Contactos
 POST /api/contactos
 Guardar un nuevo contacto
+                            {
+  "nombre": "Juan Pérez",
+  "correo": "juan@email.com",
+  "telefono": "123456789",
+  "mensaje": "Estoy interesado en sus productos"
+}
 
 GET /api/contactos
 Listar todos los contactos
@@ -21,6 +34,12 @@ Eliminar un contacto por ID
 Cotizaciones
 POST /api/cotizaciones
 Enviar una nueva cotización
+                            {
+  "nombre": "Ana López",
+  "correo": "ana@email.com",
+  "telefono": "987654321",
+  "detalles": "Quiero una mesa personalizada de 2x1 metros"
+}
 
 GET /api/cotizaciones
 Listar todas las cotizaciones

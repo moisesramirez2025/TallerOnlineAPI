@@ -1,4 +1,4 @@
-const Contacto = require('../models/contacto');
+const Contacto = require('../models/Contacto');
 
 // Guardar un nuevo contacto
 exports.crearContacto = async (req, res) => {

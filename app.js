@@ -18,6 +18,10 @@ app.use('/api', productoRutas);
 app.use('/api', contactoRutas);
 app.use('/api', cotizacionRutas);
 
+app.get("/", (req, res)=>{
+  res.send("todo bien po aqui")
+})
+
 
 
 
