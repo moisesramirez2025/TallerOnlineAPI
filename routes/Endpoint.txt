@@ -1,4 +1,4 @@
-----PRODUCTOS-----
+----PRODUCTOS----- (soloAdmin)
 ---Registrar un nuevo producto
 
 POST - /api/productos
@@ -31,11 +31,11 @@ POST /api/contactos
   "mensaje": ""
 }
 
-----Listar todos los contactos
+----Listar todos los contactos(soloAdmin)
 
 GET /api/contactos
 
-----Eliminar un contacto por id
+----Eliminar un contacto por id (soloAdmin)
 
 DELETE /api/contactos/:id
 
@@ -54,12 +54,12 @@ POST /api/cotizaciones
   "detalles": ""
 }
 
----Listar todas las cotizaciones
+---Listar todas las cotizaciones(soloAdmin)
 
 GET /api/cotizaciones
 
 
-----Eliminar una cotización por ID
+----Eliminar una cotización por ID(soloAdmin)
 
 DELETE /api/cotizaciones/:id
 

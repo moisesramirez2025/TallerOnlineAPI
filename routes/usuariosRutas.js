@@ -4,9 +4,9 @@ const ingresoControl = require("../controllers/ManejoUsuario/ingreso");
 const registroControl = require("../controllers/ManejoUsuario/registro");
 
 // Ruta para registrar usuario
-router.post("/usuarios/registro", registroControl.registrarUsuario);
+router.post("/registro", registroControl.registrarUsuario);
 
 // Ruta para iniciar sesión
-router.post("/usuarios/login", ingresoControl.iniciarSesion);
+router.post("/login", ingresoControl.iniciarSesion);
 
 module.exports = router;

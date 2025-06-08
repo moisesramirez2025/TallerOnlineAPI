@@ -17,6 +17,7 @@ exports.proteger = (req, res, next) => {
 
 // Verificar si el usuario es administrador
 exports.soloAdmin = (req, res, next) => {
+    
     if (req.usuario.rol !== 'administrador') {
         return res.status(403).json({ mensaje: 'Tienes que ser administrador para acceder aquí' });
     }
