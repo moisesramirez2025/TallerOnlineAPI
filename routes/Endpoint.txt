@@ -1,48 +1,83 @@
-Productos
-POST /api/productos
-Registrar un nuevo producto
-                                {
-  "nombre": "Silla de madera",
-  "descripcion": "Silla hecha a mano con madera de pino",
-  "precio": 1200
+----PRODUCTOS-----
+---Registrar un nuevo producto
+
+POST - /api/productos
+
+{
+  "nombre": "",
+  "descripcion": "",
+  "precio": 000
 }
 
+----Listar todos los productos
 
 GET /api/productos
-Listar todos los productos
 
+----Eliminar un producto por ID
 
 DELETE /api/productos/:id
-Eliminar un producto por ID
+____________________________________________________
 
-Contactos
+---Contactos----
+
+----Guardar un nuevo contacto
+
 POST /api/contactos
-Guardar un nuevo contacto
-                            {
-  "nombre": "Juan Pérez",
-  "correo": "juan@email.com",
-  "telefono": "123456789",
-  "mensaje": "Estoy interesado en sus productos"
+
+{
+  "nombre": "",
+  "correo": "",
+  "telefono": "",
+  "mensaje": ""
 }
+
+----Listar todos los contactos
 
 GET /api/contactos
-Listar todos los contactos
+
+----Eliminar un contacto por id
 
 DELETE /api/contactos/:id
-Eliminar un contacto por ID
 
-Cotizaciones
-POST /api/cotizaciones
+_____________________________________________________
+
+---Cotizaciones---
+
 Enviar una nueva cotización
-                            {
-  "nombre": "Ana López",
-  "correo": "ana@email.com",
-  "telefono": "987654321",
-  "detalles": "Quiero una mesa personalizada de 2x1 metros"
+
+POST /api/cotizaciones
+
+{
+  "nombre": "",
+  "correo": "",
+  "telefono": "",
+  "detalles": ""
 }
 
+---Listar todas las cotizaciones
+
 GET /api/cotizaciones
-Listar todas las cotizaciones
+
+
+----Eliminar una cotización por ID
 
 DELETE /api/cotizaciones/:id
-Eliminar una cotización por ID
+
+______________________________________________
+
+---Usuarios -----
+
+POST /usuarios/registro
+
+{
+  "correo": "",
+  "contraseña": "",
+  "rol": ""
+}
+
+POST /usuarios/login
+
+{
+  "correo": "",
+  "contraseña": ""
+}
